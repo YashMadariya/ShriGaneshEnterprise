@@ -1,0 +1,7 @@
+.hide-more-options::-webkit-media-controls-enclosure {
+    display: none !important;
+  }
+
+  .hide-more-options::-webkit-media-controls {
+    display: none !important;
+  } 
