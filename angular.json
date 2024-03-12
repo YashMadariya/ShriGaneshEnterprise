@@ -81,6 +81,9 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
+            "options": {
+              "proxyConfig": "proxy.conf.json"
+            },
             "production": {
               "browserTarget": "ShreeGaneshEnterprise:build:production"
             },
