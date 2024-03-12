@@ -9,7 +9,4 @@ export class ContactUsService {
 
   constructor(private httpClient: HttpClient) { }
 
-  sendContactEmail(model:any){
-    return this.httpClient.post(`${environment.baseUrl}email`, model);
-  }
 }
