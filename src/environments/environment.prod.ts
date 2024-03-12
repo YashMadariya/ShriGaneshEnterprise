@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  baseUrl:'https://github.com/YashMadariya/',
+  baseUrl:'https://github.com/YashMadariya/docs/',
 };
